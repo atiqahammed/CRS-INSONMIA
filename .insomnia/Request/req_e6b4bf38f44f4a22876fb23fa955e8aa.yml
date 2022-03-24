@@ -1,0 +1,35 @@
+_id: req_e6b4bf38f44f4a22876fb23fa955e8aa
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1648012185753
+created: 1647886873323
+url: "{{base_url}}/get-all-proposal-result"
+name: get-all-proposal-result
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     	"projectId": 1
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_a37e567ab2ff4b75b276cb99b54e3b77
+authentication: {}
+metaSortKey: -1624976608233.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

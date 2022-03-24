@@ -1,0 +1,36 @@
+_id: req_4ca7ac27fd904590a446a46adfce8d97
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1647975512844
+created: 1647886873323
+url: "{{base_url}}/current-balance"
+name: current-balance
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	  "projectId": 1,
+    		"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030"
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_79a218604dc14146b3b4c4151e7388ee
+authentication: {}
+metaSortKey: -1624976608220.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

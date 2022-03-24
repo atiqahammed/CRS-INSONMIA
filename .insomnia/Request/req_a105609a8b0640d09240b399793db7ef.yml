@@ -1,0 +1,35 @@
+_id: req_a105609a8b0640d09240b399793db7ef
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1648011504627
+created: 1647886873317
+url: "{{base_url}}/get-contract-address-by-project"
+name: get-contract-address-by-project
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"projectId": 1,
+      "addressType" : "Govornance"
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_a37e567ab2ff4b75b276cb99b54e3b77
+authentication: {}
+metaSortKey: -1624976608370.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

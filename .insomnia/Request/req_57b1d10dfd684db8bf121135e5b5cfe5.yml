@@ -1,0 +1,83 @@
+_id: req_57b1d10dfd684db8bf121135e5b5cfe5
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1647975514081
+created: 1647886873322
+url: "{{base_url}}/create-nft-batch"
+name: create-nft-batch
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "projectId": 1,
+      "functionName": "createNftBatch",
+      "functionParameter": {
+        "toEOA": "0x37d6126d4173FcBbCdcC8e0D38C74D5FCd99D448",
+        "nfts": [
+          {
+              "projectId": 1,
+              "nftMetadata": {
+    					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+    					"external_url": "https://openseacreatures.io/tokenId",
+    					"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+    					"name": "Dave Starbelly",
+    					"attributes": [
+    						{
+    							"display_type": "string",
+    							"trait_type": "Project-name",
+    							"value": "sample project name"
+    						},
+    						{
+    							"display_type": "number",
+    							"trait_type": "edition no",
+    							"value": 5
+    						}
+    					]
+    				}
+          },
+          {
+              "projectId": 1,
+              "nftMetadata": {
+    					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+    					"external_url": "https://openseacreatures.io/tokenId",
+    					"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+    					"name": "Dave Starbelly",
+    					"attributes": [
+    						{
+    							"display_type": "string",
+    							"trait_type": "Project-name",
+    							"value": "sample project name"
+    						},
+    						{
+    							"display_type": "number",
+    							"trait_type": "edition no",
+    							"value": 5
+    						}
+    					]
+    				}
+          }
+        ]
+      }
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_a4ff995861b544ce941a66122fc868ef
+authentication: {}
+metaSortKey: -1624976608208.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

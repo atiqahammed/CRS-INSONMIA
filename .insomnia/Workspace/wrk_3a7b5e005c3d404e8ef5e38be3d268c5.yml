@@ -1,0 +1,12 @@
+_id: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+type: Workspace
+parentId: null
+modified: 1647886873290
+created: 1647886873290
+name: Crastonic Api Request Response
+description: |
+  This is a sample Petstore server.  You can find 
+  out more about Swagger at 
+  [http://swagger.io](http://swagger.io) or on 
+  [irc.freenode.net, #swagger](http://swagger.io/irc/).
+scope: design

@@ -1,0 +1,29 @@
+_id: req_26ac4e4a378b46498ac2229fce5c523c
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1647936465343
+created: 1647886873316
+url: "{{base_url}}/get-authentication-token"
+name: get-authentication-token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_69c2373146764e5c8a18e3702f46f94e
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+  - id: pair_3e3e8f1376b940dbad5a680c1232a6ed
+    name: eoa
+    value: testEOA
+    description: ""
+authentication: {}
+metaSortKey: -1624976608376.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

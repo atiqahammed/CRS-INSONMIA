@@ -1,0 +1,18 @@
+_id: env_442fe8bb48b04c30a37494e8d297b0ba
+type: Environment
+parentId: env_2700670858074ba5b8b620825ca798a4
+modified: 1647887147216
+created: 1647886873297
+name: Crastonic Dev
+data:
+  base_path: /api/v1
+  scheme: https
+  host: creabo-web3-api-dev-4lzb3v4s6a-uc.a.run.app
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+color: null
+isPrivate: false
+metaSortKey: 5
