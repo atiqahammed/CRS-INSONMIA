@@ -1,7 +1,7 @@
 _id: req_cdb610d6efe8467a969f5413ceda77a0
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648013148764
+modified: 1648143324913
 created: 1647886873321
 url: "{{base_url}}/allocation-breakdown"
 name: allocation-breakdown
@@ -11,11 +11,19 @@ body:
   mimeType: application/json
   text: |
     {
-    	"projectId": 1, 
+    	 
     	"distribution" : {
       	"governance" : [{
          	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
         	"percent": 100
+        },
+    		{
+         	"eoa": "a",
+        	"percent": 25
+        },
+    		{
+         	"eoa": "b",
+        	"percent": 25
         }],
         "utility" : [{
         	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
@@ -25,14 +33,15 @@ body:
         	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
         	"percent": 100
         }]
-      }
+      },
+    	"projectId": 1
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgxMzk3MjAsImV4cCI6MTY0ODIzOTcyMH0.sSDkA81c_Ql-k1WgNib5K77W3sfgUIDZBdBpSDyBTVo
     description: ""
     disabled: false
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_186bfdda3b014cb593f5c6107162d68a
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648138660488
+modified: 1648361347987
 created: 1647886873318
 url: "{{base_url}}/create-project"
 name: create-project
@@ -12,7 +12,7 @@ body:
   text: |-
     {
       "name": "nft sample project",
-      "projectId": 1,
+      "projectId": 3,
     	"tokenName": "Creabo Token",
       "projectTypeId": "COLEB",
       
@@ -64,7 +64,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgwMTYwMTQsImV4cCI6MTY0ODExNjAxNH0.3HZfLfgJV8n4UMOLpCh96tmVOKkoE2UAFEUv08gx5IU
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgxMzk3MjAsImV4cCI6MTY0ODIzOTcyMH0.sSDkA81c_Ql-k1WgNib5K77W3sfgUIDZBdBpSDyBTVo
     description: ""
     disabled: false
   - name: Content-Type
