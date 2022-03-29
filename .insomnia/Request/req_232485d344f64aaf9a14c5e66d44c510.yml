@@ -1,7 +1,7 @@
 _id: req_232485d344f64aaf9a14c5e66d44c510
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648011710523
+modified: 1648528955031
 created: 1647886873321
 url: "{{base_url}}/proposals"
 name: proposals
@@ -40,7 +40,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg0ODgwNDgsImV4cCI6MTY0ODU4ODA0OH0.1Z-tnQ7_EEvOXa6un9WNvIkI2gSaNQEikAXIK5bQaLY
     description: ""
     disabled: false
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_186bfdda3b014cb593f5c6107162d68a
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648361347987
+modified: 1648488066174
 created: 1647886873318
 url: "{{base_url}}/create-project"
 name: create-project
@@ -12,11 +12,11 @@ body:
   text: |-
     {
       "name": "nft sample project",
-      "projectId": 3,
-    	"tokenName": "Creabo Token",
+      "projectId": 1,
+    	"tokenName": "Creabo Tokenpp",
       "projectTypeId": "COLEB",
       
-      "tokenSymbol": "Creabo",
+      "tokenSymbol": "Creaboui",
       "maxToken": 1000000,
       "votingPower": "1VPM",
       "whoCanVote": "AllMembers",
@@ -32,7 +32,6 @@ body:
         }
       },
       "tokenAllocation": {
-        "projectId": 1,
         "governance": 40,
         "utility": 40,
         "fundraising": 20,
@@ -41,19 +40,19 @@ body:
       "tokenDistribution": {
         "governance": [
           {
-            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a031",
             "percent": 100
           }
         ],
         "utility": [
           {
-            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a032",
             "percent": 100
           }
         ],
         "fundraising": [
           {
-            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a033",
             "percent": 100
           }
         ]
@@ -64,7 +63,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgxMzk3MjAsImV4cCI6MTY0ODIzOTcyMH0.sSDkA81c_Ql-k1WgNib5K77W3sfgUIDZBdBpSDyBTVo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg0ODgwNDgsImV4cCI6MTY0ODU4ODA0OH0.1Z-tnQ7_EEvOXa6un9WNvIkI2gSaNQEikAXIK5bQaLY
     description: ""
     disabled: false
   - name: Content-Type

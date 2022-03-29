@@ -1,7 +1,7 @@
 _id: req_9f7c86b7d34c4d0a83d4d4d12c3b1518
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648148002700
+modified: 1648528989562
 created: 1647886873318
 url: "{{base_url}}/get-project-by-id"
 name: get-project-by-id
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	 "projectId": 2
+    	 "projectId": 1
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgxMzk3MjAsImV4cCI6MTY0ODIzOTcyMH0.sSDkA81c_Ql-k1WgNib5K77W3sfgUIDZBdBpSDyBTVo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg1Mjg5NTcsImV4cCI6MTY0ODYyODk1N30.N3DT26yJxnsd2FY9qo98cl2INEAKXrYEhGo5nUAKQxM
     description: ""
   - name: Content-Type
     value: application/json

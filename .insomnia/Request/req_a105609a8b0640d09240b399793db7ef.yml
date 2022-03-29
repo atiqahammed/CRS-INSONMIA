@@ -1,7 +1,7 @@
 _id: req_a105609a8b0640d09240b399793db7ef
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648143410001
+modified: 1648375697291
 created: 1647886873317
 url: "{{base_url}}/get-contract-address-by-project"
 name: get-contract-address-by-project
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"projectId": 1,
+    	"projectId": 12,
       "addressType" : "Govornance"
     }
 parameters: []
@@ -19,7 +19,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgzNjMzNTUsImV4cCI6MTY0ODQ2MzM1NX0.FlPrNtrgftu5Ak4QuR7hLvPslNku3TF2zpbQN66FJIo
     description: ""
   - name: Content-Type
     value: application/json

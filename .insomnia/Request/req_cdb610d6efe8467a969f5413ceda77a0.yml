@@ -1,7 +1,7 @@
 _id: req_cdb610d6efe8467a969f5413ceda77a0
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648143324913
+modified: 1648376581258
 created: 1647886873321
 url: "{{base_url}}/allocation-breakdown"
 name: allocation-breakdown
@@ -9,39 +9,52 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |
+  text: |-
     {
-    	 
-    	"distribution" : {
-      	"governance" : [{
-         	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-        	"percent": 100
-        },
-    		{
-         	"eoa": "a",
-        	"percent": 25
-        },
-    		{
-         	"eoa": "b",
-        	"percent": 25
-        }],
-        "utility" : [{
-        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-        	"percent": 100
-        }],
-        "fundraising" : [{
-        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-        	"percent": 100
-        }]
+      "distribution": {
+        "governance": [
+          {
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "percent": 100
+          },
+          {
+            "eoa": "a",
+            "percent": 25
+          },
+          {
+            "eoa": "b",
+            "percent": 25
+          },
+          {
+            "eoa": "FGGH",
+            "percent": 25
+          }
+        ],
+        "utility": [
+          {
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "percent": 100
+          }
+        ],
+        "fundraising": [
+          {
+            "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+            "percent": 100
+          },
+          {
+            "eoa": "FGGH",
+            "percent": 25
+          }
+        ]
       },
-    	"projectId": 1
+      "projectId": 11
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgxMzk3MjAsImV4cCI6MTY0ODIzOTcyMH0.sSDkA81c_Ql-k1WgNib5K77W3sfgUIDZBdBpSDyBTVo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDgzNjMzNTUsImV4cCI6MTY0ODQ2MzM1NX0.FlPrNtrgftu5Ak4QuR7hLvPslNku3TF2zpbQN66FJIo
     description: ""
     disabled: false
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_57b1d10dfd684db8bf121135e5b5cfe5
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1647975514081
+modified: 1648451878820
 created: 1647886873322
 url: "{{base_url}}/create-nft-batch"
 name: create-nft-batch

@@ -1,35 +1,35 @@
-_id: req_33ec303b366f4bc88f3c96058ecd9f0a
+_id: req_6861a2d214f9464d86cf81435179627f
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648377658121
-created: 1647886873324
-url: "{{base_url}}/token-allocation"
-name: token-allocation
+modified: 1648451946359
+created: 1648451903932
+url: "{{base_url}}/support-project"
+name: support-project
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "projectId": 11,
-      "governance": 40,
-      "utility": 40,
-    	"fundraising": 20,
-    	"calculateby": "percent"
+      "projectId": 1,
+      "eoa": "string",
+      "unit": "string",
+      "amount": 0,
+      "date": "2022-03-28T07:17:18.747Z"
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg0NTE5MzMsImV4cCI6MTY0ODU1MTkzM30.WSA9yzOrjMIcWRdFjDNJ6ul348oIDJgKR3I4w2Ox_Sc
     description: ""
     disabled: false
   - name: Content-Type
     value: application/json
-    id: pair_79a218604dc14146b3b4c4151e7388ee
+    id: pair_a4ff995861b544ce941a66122fc868ef
 authentication: {}
-metaSortKey: -1624976608345.6875
+metaSortKey: -1624976608183.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
