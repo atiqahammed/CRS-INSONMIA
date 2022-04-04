@@ -1,7 +1,7 @@
 _id: req_a105609a8b0640d09240b399793db7ef
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648375697291
+modified: 1648555411668
 created: 1647886873317
 url: "{{base_url}}/get-contract-address-by-project"
 name: get-contract-address-by-project
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"projectId": 12,
+    	"projectId": 1,
       "addressType" : "Govornance"
     }
 parameters: []

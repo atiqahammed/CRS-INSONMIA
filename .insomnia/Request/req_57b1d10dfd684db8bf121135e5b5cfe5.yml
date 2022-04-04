@@ -1,7 +1,7 @@
 _id: req_57b1d10dfd684db8bf121135e5b5cfe5
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648451878820
+modified: 1648966278595
 created: 1647886873322
 url: "{{base_url}}/create-nft-batch"
 name: create-nft-batch
@@ -25,14 +25,14 @@ body:
     					"name": "Dave Starbelly",
     					"attributes": [
     						{
+    							"display_type": "number",
+    							"trait_type": "edition neo",
+    							"value": 1
+    						},
+    						{
     							"display_type": "string",
     							"trait_type": "Project-name",
     							"value": "sample project name"
-    						},
-    						{
-    							"display_type": "number",
-    							"trait_type": "edition no",
-    							"value": 5
     						}
     					]
     				}
@@ -47,12 +47,13 @@ body:
     					"attributes": [
     						{
     							"display_type": "string",
-    							"trait_type": "Project-name",
-    							"value": "sample project name"
+    							"value": "sample project name",
+    							"trait_type": "Project-name"
+    							
     						},
     						{
     							"display_type": "number",
-    							"trait_type": "edition no",
+    							"trait_type": "edition now",
     							"value": 5
     						}
     					]
@@ -66,7 +67,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg4MzEwNzYsImV4cCI6MTY0ODkzMTA3Nn0._kWm57Ujha-ntIq9fzYjkxswGLmUnNqB5pJnNLKUFiU
     description: ""
     disabled: false
   - name: Content-Type

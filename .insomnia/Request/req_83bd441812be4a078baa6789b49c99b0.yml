@@ -1,0 +1,41 @@
+_id: req_83bd441812be4a078baa6789b49c99b0
+type: Request
+parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
+modified: 1648658491215
+created: 1648556384428
+url: https://creabo-web2-api-dev-4lzb3v4s6a-uc.a.run.app/api/v1/web3callback
+name: callback
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "projectId": 1,
+      "functionName": "createProject",
+      "status": "success",
+      "messages": [],
+      "data": {
+        "transactionStatus": "0x80818c26af0043b0ee742997676bd9c4a2cdbff1e8ebb65b4b2a7a031cac",
+        "transactionHash": "0x107d30e56f2cb4cb95b7aaf2661c32ecb3486387182e23e5597e99914419955aea75de91",
+        "uuid": "7e9f9baf-9c01-4ac8-9b29-716d5b273690"
+      }
+    }
+parameters: []
+headers:
+  - id: pair_21049f419b334afaba75f9ede3b1b148
+    name: api_key
+    value: setWeb2APIKey
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_7dda285e5348415c9a1d43ef87ff2870
+authentication: {}
+metaSortKey: -1648556384428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_8829e030915149dd9f59c6e867d7da71
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648528973569
+modified: 1648701660103
 created: 1647886873316
 url: "{{base_url}}/get-all-projects"
 name: get-all-projects
@@ -13,7 +13,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg1Mjg5NTcsImV4cCI6MTY0ODYyODk1N30.N3DT26yJxnsd2FY9qo98cl2INEAKXrYEhGo5nUAKQxM
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg3MDE2NDEsImV4cCI6MTY0ODgwMTY0MX0.e4dLTFiNmzChskCih7HTEVk6v2XPtPJBvOKwQjCGNs8
     description: ""
     disabled: false
 authentication: {}

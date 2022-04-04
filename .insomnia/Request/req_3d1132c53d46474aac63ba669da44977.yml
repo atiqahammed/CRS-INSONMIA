@@ -1,7 +1,7 @@
 _id: req_3d1132c53d46474aac63ba669da44977
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648014465624
+modified: 1648750768741
 created: 1647886873320
 url: "{{base_url}}/get-proposal-result"
 name: get-proposal-result
@@ -20,7 +20,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc5MzY0NjcsImV4cCI6MTY0ODAzNjQ2N30.-skEEeeP7ZMrZQJQm7Yoo_UOK5toCzkXaiR92tdOLRs
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg3MDE2NDEsImV4cCI6MTY0ODgwMTY0MX0.e4dLTFiNmzChskCih7HTEVk6v2XPtPJBvOKwQjCGNs8
     description: ""
     disabled: false
   - name: Content-Type

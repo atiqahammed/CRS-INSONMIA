@@ -1,7 +1,7 @@
 _id: req_232485d344f64aaf9a14c5e66d44c510
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1648528955031
+modified: 1648979980357
 created: 1647886873321
 url: "{{base_url}}/proposals"
 name: proposals
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-      "projectId": 1,
+      "projectId": 2,
       "groupId": 1,
-      "proposalId": 1,
+      "proposalId": 4,
       "proposalType": "YES/NO",
       "proposalText": "new claim",
       "action": "TokenAllocation",
@@ -28,11 +28,6 @@ body:
         "governance": 40,
         "utility": 40,
         "fundraising": 20
-      },
-      "data2": {
-        "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-        "amount": 40,
-        "unit": "matic"
       }
     }
 parameters: []
@@ -40,7 +35,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg0ODgwNDgsImV4cCI6MTY0ODU4ODA0OH0.1Z-tnQ7_EEvOXa6un9WNvIkI2gSaNQEikAXIK5bQaLY
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg5Nzg1MjEsImV4cCI6MTY0OTA3ODUyMX0.d8e3OFVTn_yNcodxP_HSdgwtlKkqvUtG_Ok3dzc2sOQ
     description: ""
     disabled: false
   - name: Content-Type
