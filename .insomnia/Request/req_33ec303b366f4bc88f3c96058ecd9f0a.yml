@@ -1,7 +1,7 @@
 _id: req_33ec303b366f4bc88f3c96058ecd9f0a
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1649046505006
+modified: 1649256464595
 created: 1647886873324
 url: "{{base_url}}/token-allocation"
 name: token-allocation
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "projectId": 5,
+      "projectId": 7,
       "tokenTypes": [
           {
             "name": "governance",
@@ -33,7 +33,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg3MDE2NDEsImV4cCI6MTY0ODgwMTY0MX0.e4dLTFiNmzChskCih7HTEVk6v2XPtPJBvOKwQjCGNs8
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDkyNTI3MzEsImV4cCI6MTY0OTM1MjczMX0.Pbs8Lkf3UOcBCYdXEXJY6OkRPb8u2nOMaj3OLDqFXF0
     description: ""
     disabled: false
   - name: Content-Type

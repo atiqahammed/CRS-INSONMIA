@@ -1,0 +1,14 @@
+_id: env_env_2700670858074ba5b8b620825ca798a4_sub
+type: Environment
+parentId: env_2700670858074ba5b8b620825ca798a4
+modified: 1649252661187
+created: 1649252661187
+name: Swagger env
+data:
+  base_path: /NuArca/NFT-API/1.0.0
+  scheme: https
+  host: virtserver.swaggerhub.com
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1649252661187

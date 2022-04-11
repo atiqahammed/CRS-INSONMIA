@@ -1,7 +1,7 @@
 _id: req_186bfdda3b014cb593f5c6107162d68a
 type: Request
 parentId: wrk_3a7b5e005c3d404e8ef5e38be3d268c5
-modified: 1649046501780
+modified: 1649255139588
 created: 1647886873318
 url: "{{base_url}}/create-project"
 name: create-project
@@ -12,10 +12,9 @@ body:
   text: |-
     {
       "name": "nft sample project",
-      "projectId": 5,
-    	"tokenName": "Creabo Tokenpp5",
-      "projectTypeId": "COLEB5",
-      "tokenSymbol": "Creaboui5",
+      "projectId": 7,
+    	"tokenName": "Creabo Tokenpp7",
+      "tokenSymbol": "Creaboui7",
       "maxToken": 1000000,
       "votingPower": "1VPM",
       "whoCanVote": "AllMembers",
@@ -41,8 +40,15 @@ body:
             "allocation": 40
           },
           {
-            "name": "fundraising",
-            "allocation": 20
+            "name": "series A",
+    				"allocation": 20,
+    				"type": "funding",
+    				"fundStartDate": "2022-03-08T00:55:46+00:00",
+    				"fundEndDate": "2022-03-08T00:55:46+00:00",
+    				"fundTargetAmount": 100000,
+    				"fundMinimumAmount": 90000,
+    				"fundUnit": "matic",
+    				"fundTokenPrice": 1.2
           }
         ],
         "calculateby": "percent"
@@ -60,7 +66,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDg5OTgwNjMsImV4cCI6MTY0OTA5ODA2M30.jnO9D3lwIziPa4z6m4VHNidS2t-vm2wWQwlQ4m50QEc
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDkyNTI3MzEsImV4cCI6MTY0OTM1MjczMX0.Pbs8Lkf3UOcBCYdXEXJY6OkRPb8u2nOMaj3OLDqFXF0
     description: ""
     disabled: false
   - name: Content-Type
